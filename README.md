@@ -3,5 +3,8 @@
 ### Spring Boot 3, WebFlux, MongoDb
 
 _For testing purposes a MongoDB database is created and deployed to the MongoDB cloud.
-The books-db consists of 2 collections: books and book-catalog. Info for these collection can be fetched for all 
-items or for a single item_
+The **books-db** consists of 2 collections: **books** and **book-catalog**. Info for these collection can be fetched for all 
+items or for a single item.
+Sample request:
+http://localhost:8080/book-catalog
+http://localhost:8080/books_
